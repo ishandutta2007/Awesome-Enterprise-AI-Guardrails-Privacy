@@ -1,54 +1,49 @@
-# Awesome-Enterprise-AI-Guardrails-Privacy
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Enterprise AI Guardrails and Privacy Banner" width="100%" />
+</p>
 
-## Top Enterprise AI Guardrails & Privacy Ecosystem
+# 🛡️ Awesome Enterprise AI Guardrails & Privacy
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy?style=flat-square&color=gold" alt="Repo Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy?style=flat-square&color=blue" alt="Repo Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy?style=flat-square&color=red" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Top Enterprise AI Guardrails & Privacy Ecosystem
 
-*Focused on LLM Safety, Prompt Defense & AI Governance*  
+> **A Curated List of SaaS Platforms & Open-Source Tools for Enterprise AI Security, LLM Safety, Prompt Defense, PII Anonymization & AI Governance**  
+> *Last updated: March 2026* ⚡
 
-**Last updated: March 2026**
+This repository tracks battle-tested **SaaS platforms** and **open-source security tools** designed for **Enterprise AI Guardrails, Agentic Safety, and Data Privacy**. These systems empower organizations to safely deploy Generative AI applications and autonomous agents by dynamically intercepting prompt injections, jailbreaks, PII leakage, toxicity, hallucinations, and model supply-chain vulnerabilities — while ensuring regulatory compliance with the **EU AI Act**, **NIST AI RMF**, **GDPR**, and **HIPAA**.
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise AI Guardrails & Privacy**. These tools enable organizations to deploy generative AI safely by intercepting prompts and responses for toxicity, prompt injection, PII leakage, and hallucination — while maintaining compliance and audit trails.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Enterprise Platforms](#-saas--hosted-enterprise-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
 
+---
 
-
-**Examples** include Salesforce Einstein Trust Layer, Lakera Guard, Guardrails AI, Protect AI, HiddenLayer, Arthur Shield, NVIDIA NeMo Guardrails, CalypsoAI, Patronus AI, and Credo AI (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom guardrail validators, and open AI security infrastructure — ideal for security engineers, ML platform teams, and developers seeking transparent, vendor-independent AI safety.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global AI Guardrails and LLM Security market is estimated at approximately **USD 2B to 3B**, rapidly expanding at a CAGR of 25%+ toward an expected **USD 18B–27B+** over the next decade. The sector is currently **moderately to highly fragmented** rather than winner-take-all, characterized by rapid open-source innovation, specialized security startups, and aggressive M&A consolidation from legacy cybersecurity giants (e.g., Palo Alto acquiring Protect AI, Check Point acquiring Lakera, and F5 acquiring CalypsoAI).
 
+---
 
-
-## SaaS/Hosted Platforms
+## 🏢 SaaS / Hosted Enterprise Platforms
 
 | Platform | Company Size (Revenue / Valuation) | Description | Pricing | Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
@@ -62,120 +57,99 @@ The global AI Guardrails and LLM Security market is estimated at approximately *
 | **[Credo AI](https://www.credo.ai/)** | **~$101M Valuation** ($36M+ total funding raised) | Enterprise AI governance, risk management, and compliance platform with GAIA assistant automating policy enforcement and audit trails. | Annual platform subscription starting between **$30,000 to $150,000/year** based on active AI use cases and compliance modules. | **Free access to AI Governance Insights Hub and templates**; enterprise platform evaluation via customized guided proof-of-concept (PoC) demo upon request. |
 | **[Guardrails AI](https://guardrailsai.com/)** | **~$30M–$50M Est. Valuation** ($7.5M seed; acquired by Harvey) | Framework and Hub for input/output guards, PII filtering, and structured Pydantic data generation for LLM applications. | Core framework is **$0 (Apache 2.0 open source)**; Guardrails Pro / Managed Cloud starts via custom enterprise annual contracts or AWS Marketplace private offers. | **Free forever open-source** self-hosted engine with unrestricted local runs; Guardrails Hub public validators are free to pull and run. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Curated open-source toolkits, libraries, and frameworks for self-hosting custom validators, red-teaming, PII filtering, and building vendor-independent AI guardrails. Sorted by GitHub star count (descending):
 
+1. **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+   CLI and open-source library (MIT) for LLM red teaming, automated penetration testing, security evaluations, and prompt injection defense. Integrates natively with CI/CD pipelines to catch LLM vulnerabilities prior to deployment.
 
+2. **[DeepEval](https://github.com/confident-ai/deepeval)** [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
+   The Open-Source LLM Evaluation Framework (Apache-2.0). Unit tests LLM applications for hallucination detection, answer relevancy, toxicity, G-Eval custom metrics, and enterprise safety guardrails.
 
-- **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)**  
+3. **[Phoenix](https://github.com/Arize-ai/phoenix)** [![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
+   AI observability and evaluation platform (ELv2) providing OpenTelemetry-based LLM tracing, evaluation, hallucination detection, and real-time guardrail performance monitoring.
 
-  Leading open-source toolkit (Apache-2.0) for programmable LLM guardrails. Colang modeling language for dialogue flows. Five rail types: Input, Dialog, Retrieval, Execution, Output. Built-in rails for self-checking (moderation, fact-checking, hallucination), jailbreak detection, and NVIDIA safety models. LangChain integration. Docker and CLI support .
+4. **[Microsoft Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
+   Industry-standard context-aware, pluggable PII identification and anonymization service (MIT). Identifies sensitive entities (names, credit cards, emails, SSNs) and redacts or masks them across prompts and completions.
 
+5. **[garak](https://github.com/leondz/garak)** [![GitHub stars](https://img.shields.io/github/stars/leondz/garak?style=social&color=white)](https://github.com/leondz/garak/stargazers)  
+   The LLM vulnerability scanner (Apache-2.0). Acts as an automated generative AI red-teaming tool probing models for prompt injection, jailbreaks, data leaks, hallucination, and toxic generation.
 
+6. **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
+   Python framework (Apache-2.0) and Hub for adding input/output guards, enforcing PII redaction, detecting toxic content, and extracting structured data using Pydantic schemas. Includes Guardrails API server with OpenAI-compatible endpoints.
 
-- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)**  
+7. **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+   Leading open-source toolkit (Apache-2.0) by NVIDIA for programmable guardrails on conversational LLM systems. Uses the Colang modeling language to define input, dialog, retrieval, execution, and output rails.
 
-  Python framework (Apache-2.0) for input/output validation and structured data generation. Guardrails Hub with 24+ pre-built validators (PII, toxicity, competitor check, regex match). Guardrails API server (FastAPI) provides OpenAI-compatible endpoints for applying guards in your own environment. Supports PostgreSQL persistence and full CRUD .
+8. **[Purple Llama / Llama Guard](https://github.com/meta-llama/PurpleLlama)** [![GitHub stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers)  
+   Meta's umbrella project (MIT/Custom) for open trust and safety tools, featuring **Llama Guard**, **Prompt Guard**, and CyberSec Eval for content moderation and adversarial prompt filtering.
 
+9. **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+   Production-grade security toolkit (MIT) by Protect AI for LLM interactions. Offers modular scanners for prompt sanitization, secret/token detection, toxicity filtering, and sensitive data redaction.
 
+10. **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
+    Multi-layered prompt injection detector (Apache-2.0) utilizing heuristic filtering, dedicated LLM detection, vector database embeddings, and canary tokens to stop prompt injection attacks.
 
-- **[ModelScan (Protect AI)](https://github.com/protectai/modelscan)**  
+11. **[HarmBench](https://github.com/centerforaisafety/HarmBench)** [![GitHub stars](https://img.shields.io/github/stars/centerforaisafety/HarmBench?style=social&color=white)](https://github.com/centerforaisafety/HarmBench/stargazers)  
+    Standardized evaluation framework (MIT) by the Center for AI Safety for automated red teaming, jailbreak robustness, and safety benchmarking of open and closed-source language models.
 
-  Open-source model scanner (Apache-2.0) protecting against Model Serialization Attacks. Reads files byte-by-byte without loading malicious code. Supports PyTorch, TensorFlow, Keras, Sklearn, XGBoost, and Pickle-derived formats. Ranks threats as Critical/High/Medium/Low. Scans in seconds .
+12. **[ModelScan](https://github.com/protectai/modelscan)** [![GitHub stars](https://img.shields.io/github/stars/protectai/modelscan?style=social&color=white)](https://github.com/protectai/modelscan/stargazers)  
+    Open-source model scanner (Apache-2.0) protecting against Model Serialization Attacks. Analyzes model files byte-by-byte (PyTorch, TensorFlow, Keras, Sklearn, Pickle) without executing arbitrary malicious code.
 
+13. **[Vigil](https://github.com/deadbits/vigil-llm)** [![GitHub stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social&color=white)](https://github.com/deadbits/vigil-llm/stargazers)  
+    Open-source security scanner and guardrail (MIT) detecting prompt injections, jailbreaks, and toxic inputs using signature detection, transformer models, and vector database similarity matching.
 
+14. **[Sponsio](https://github.com/SponsioLabs/Sponsio)** [![GitHub stars](https://img.shields.io/github/stars/SponsioLabs/Sponsio?style=social&color=white)](https://github.com/SponsioLabs/Sponsio/stargazers)  
+    Runtime safety layer for AI agents (Apache-2.0). Validates autonomous agent actions against deterministic rules ("agent contracts") before tool execution.
 
-- **[Arthur Engine (GenAI Engine)](https://github.com/arthur-ai/arthur-engine)**  
+15. **[Arthur Engine](https://github.com/arthur-ai/arthur-engine)** [![GitHub stars](https://img.shields.io/github/stars/arthur-ai/arthur-engine?style=social&color=white)](https://github.com/arthur-ai/arthur-engine/stargazers)  
+    Open-source engine (Apache-2.0) for LLM evaluation, task-based validation, and hallucination scoring in enterprise RAG workflows.
 
-  Open-source engine (Apache-2.0) for LLM evaluation and guardrails. Provides task-based validation, rule configuration, hallucination detection for RAG applications, and API endpoints. Can disable guardrail model loading via environment variable for faster startup .
-
-
-
-- **[Patronus Lynx](https://huggingface.co/PatronusAI/lynx)**  
-
-  Open-source hallucination detection model (Apache-2.0) from Patronus AI. State-of-the-art for RAG workflows. Also available via hosted API. Research paper: Ravi et al., "Lynx: An Open Source Hallucination Evaluation Model" (arXiv:2407.08488) .
-
-
-
-- **[Sponsio](https://github.com/SponsioLabs/Sponsio)**  
-
-  Open-source runtime safety tool for AI agents (Apache-2.0). Checks every agent action against deterministic rules called "agent contracts" before execution. Contracts can allow, block, escalate, or redirect actions. Ready-made contract bundles or plain-English rules. Works with major Python and TypeScript agent frameworks .
-
-
-
-- **[Doberman](https://github.com/Doberman-AI/doberman)**  
-
-  Open-source security layer for AI coding agents (Apache-2.0). Checks every action before execution: routine actions pass, sensitive actions need human approval, dangerous actions blocked. Uncertainty results in denial. Protections can tighten automatically but weakening requires human approval and is logged .
-
-
-
-- **[Inner Warden](https://github.com/InnerWarden/inner-warden)**  
-
-  Open-source security agent for Linux/macOS (MIT). Detects brute-force and privilege escalation attacks. Can monitor autonomous AI agents and block risky commands. All actions reversible and recorded in audit trail. AI is advisory unless operators allow automatic action .
-
-
-
-- **[Meilynx](https://github.com/Meilynx/meilynx)**  
-
-  Open-source LLM governance proxy for regulated sectors (financial services, insurance, healthcare, HR). Redacts sensitive data, restricts model use, controls agent tool calls. Tamper-evident audit log mappable to EU AI Act controls .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[FLARE-AI](https://github.com/FLARE-AI/flare-ai)** — Open-source AI flaw and incident reporting platform. Standardized JSON-LD reports routed to multiple developers and coordinators .
-
-- **[AI Facts](https://github.com/AI-Facts/ai-facts)** — Free, open-source Decision Terrain tool mapped to NIST AI RMF 1.0. Documents safeguards, evidence, gaps, and actions .
-
-- **[RecourseBench](https://github.com/RecourseBench/recoursebench)** — Modular evaluation framework for algorithmic recourse methods .
-
-- **[The Model Card Builder](https://github.com/HCXAIResearch/model-card-builder)** — Free browser-based tool for documenting AI systems against NIST AI RMF and EU AI Act .
-
-- Community **n8n** workflows for guardrail alerting and audit log routing.
-
-
-
-**Frameworks for building custom systems**: Combine **NeMo Guardrails** or **Guardrails AI** as the guardrail engine with **ModelScan** for model supply chain security, **Sponsio** or **Doberman** for agent runtime safety, **Meilynx** for governance proxy, and **PostgreSQL** for persistence — creating a fully self-hosted, enterprise-grade AI guardrails platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI guardrails systems handling prompts and outputs must comply with data protection regulations (GDPR, CCPA, EU AI Act, etc.).
-
-- Self-hosted open-source solutions require proper security hardening, model artifact management, and ongoing maintenance. AI safety is an evolving field — guardrails should be tested against adversarial inputs before production deployment.
-
-
+16. **[Inner Warden](https://github.com/InnerWarden/inner-warden)** [![GitHub stars](https://img.shields.io/github/stars/InnerWarden/inner-warden?style=social&color=white)](https://github.com/InnerWarden/inner-warden/stargazers)  
+    Open-source security agent (MIT) monitoring autonomous AI agents and runtime environments against privilege escalation and risky shell commands.
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-AI-Guardrails-Privacy&type=date&legend=top-left)
 
-**Made for security engineers, AI platform teams, compliance officers, and developers building transparent AI safety solutions.**  
+---
 
-Let's make Enterprise AI Guardrails & Privacy more open, secure, and trustworthy.
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help keep this enterprise AI safety index accurate and up to date:
+
+1. 🍴 **Fork** the repository.
+2. 🌿 Create a new feature branch (`git checkout -b feature/add-guardrail`).
+3. 📝 Add or update entries in `README.md` following the established format (include name, links, pricing, free tiers, and star badges).
+4. 🚀 Submit a **Pull Request** with a brief summary of additions or updates.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using **Awesome Enterprise AI Guardrails & Privacy**! 🙏
+
+If this curated repository helps you secure your enterprise AI applications, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub to boost visibility!
+- 🍴 **Fork** and share it with your security, ML, and engineering teams.
+- ☕ **Sponsor or buy a coffee**: Show your appreciation on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated index** for informational and educational purposes; inclusion does not constitute a formal commercial endorsement.
+- Generative AI systems, agentic workflows, and guardrail platforms must strictly comply with regional data protection mandates (**GDPR**, **CCPA**, **EU AI Act**, **HIPAA**, and **NIST AI RMF**).
+- Open-source implementations must be properly security-hardened, tested against adversarial red-team benchmarks, and monitored in production.
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ for AI security engineers, ML platform leaders, and compliance officers worldwide.</sub>
+</p>

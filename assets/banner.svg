@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1a" />
+      <stop offset="50%" stop-color="#0d172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.2" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.15) translate(15px, -10px); opacity: 0.6; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px); opacity: 0.2; }
+      50% { transform: translateY(-20px); opacity: 0.8; }
+      100% { transform: translateY(0px); opacity: 0.2; }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); opacity: 0.1; }
+      50% { opacity: 0.4; }
+      100% { transform: translateY(360px); opacity: 0.1; }
+    }
+    .orb-1 { animation: pulseOrb 8s ease-in-out infinite; transform-origin: 200px 100px; }
+    .orb-2 { animation: pulseOrb 10s ease-in-out infinite reverse; transform-origin: 1000px 250px; }
+    .particle-1 { animation: floatParticle 5s ease-in-out infinite; }
+    .particle-2 { animation: floatParticle 7s ease-in-out infinite 1.5s; }
+    .particle-3 { animation: floatParticle 6s ease-in-out infinite 3s; }
+    .data-rail { stroke-dasharray: 8 6; animation: dashMove 12s linear infinite; }
+    .scan-bar { animation: scanline 6s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Background Decorative Glowing Orbs -->
+  <circle class="orb-1" cx="200" cy="100" r="160" fill="#0ea5e9" filter="url(#glow)" opacity="0.2" />
+  <circle class="orb-2" cx="1020" cy="240" r="180" fill="#8b5cf6" filter="url(#glow)" opacity="0.2" />
+  <circle cx="600" cy="340" r="120" fill="#06b6d4" filter="url(#glow)" opacity="0.12" />
+
+  <!-- Cyber Grid Background Lines -->
+  <g stroke="#334155" stroke-width="0.5" opacity="0.35">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Subtle Animated Ambient Rail Tracks (Behind Text) -->
+  <path class="data-rail" d="M -50,90 Q 300,160 650,70 T 1250,110" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.35" />
+  <path class="data-rail" d="M -50,270 Q 400,210 750,290 T 1250,240" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.35" />
+
+  <!-- Floating Ambient Shield & Keylock Icons in Background Wings -->
+  <g transform="translate(80, 80)" opacity="0.45" class="particle-1">
+    <polygon points="40,10 75,25 75,65 40,90 5,65 5,25" fill="url(#shieldGrad)" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 30,45 L 37,52 L 52,37" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <g transform="translate(1040, 100)" opacity="0.45" class="particle-2">
+    <polygon points="40,10 75,25 75,65 40,90 5,65 5,25" fill="url(#shieldGrad)" stroke="#a855f7" stroke-width="2" />
+    <circle cx="40" cy="45" r="8" fill="none" stroke="#a855f7" stroke-width="2" />
+    <line x1="40" y1="53" x2="40" y2="65" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Floating Constellation Nodes -->
+  <circle class="particle-1" cx="110" cy="250" r="3.5" fill="#38bdf8" filter="url(#subtleGlow)" />
+  <circle class="particle-2" cx="220" cy="290" r="2.5" fill="#818cf8" />
+  <circle class="particle-3" cx="980" cy="70" r="3.5" fill="#c084fc" filter="url(#subtleGlow)" />
+  <circle class="particle-1" cx="1090" cy="290" r="3" fill="#38bdf8" />
+
+  <!-- Ambient Scanning Line (Constrained opacity) -->
+  <line class="scan-bar" x1="100" y1="0" x2="1100" y2="0" stroke="url(#accentGrad)" stroke-width="1" opacity="0.2" />
+
+  <!-- FOREGROUND CONTENT: Badge Pill -->
+  <g transform="translate(600, 52)">
+    <rect x="-165" y="-16" width="330" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1" opacity="0.9" filter="url(#subtleGlow)" />
+    <circle cx="-140" cy="0" r="5" fill="#10b981" />
+    <text x="-125" y="4" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.5">ENTERPRISE AI SECURITY &amp; PRIVACY</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Main Title -->
+  <text x="600" y="145" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5" filter="url(#subtleGlow)">
+    Awesome Enterprise AI Guardrails
+  </text>
+
+  <!-- FOREGROUND CONTENT: Subtitle Gradient Text -->
+  <text x="600" y="195" text-anchor="middle" fill="url(#accentGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="0.5">
+    LLM Safety • Prompt Defense • AI Governance • Data Privacy
+  </text>
+
+  <!-- FOREGROUND CONTENT: Tagline / Feature Highlights -->
+  <text x="600" y="240" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="400">
+    Curated list of production-ready SaaS platforms &amp; top-tier open-source toolkits
+  </text>
+
+  <!-- FOREGROUND CONTENT: Security Feature Badges / Pills -->
+  <g transform="translate(600, 290)">
+    <!-- Pill 1 -->
+    <g transform="translate(-320, 0)">
+      <rect x="0" y="-15" width="145" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="72" y="5" text-anchor="middle" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🛡️ Prompt Injection</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(-160, 0)">
+      <rect x="0" y="-15" width="145" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="72" y="5" text-anchor="middle" fill="#818cf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">🔒 PII Redaction</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="-15" width="155" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="77" y="5" text-anchor="middle" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚡ Hallucination Check</text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(170, 0)">
+      <rect x="0" y="-15" width="155" height="30" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="77" y="5" text-anchor="middle" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">⚖️ EU AI Act &amp; RMF</text>
+    </g>
+  </g>
+
+  <!-- Border Gradient Stroke -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.6" />
+</svg>
