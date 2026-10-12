@@ -61,54 +61,54 @@ The global AI Guardrails and LLM Security market is estimated at approximately *
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source toolkits, libraries, and frameworks for self-hosting custom validators, red-teaming, PII filtering, and building vendor-independent AI guardrails. Sorted by GitHub star count (descending):
+Curated open-source toolkits, libraries, and frameworks for self-hosting custom validators, red-teaming, PII filtering, and building vendor-independent AI guardrails. Sorted by GitHub Stars_Count (descending):
 
-1. **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
+1. **[Promptfoo](https://github.com/promptfoo/promptfoo)** [![GitHub_Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers)  
    CLI and open-source library (MIT) for LLM red teaming, automated penetration testing, security evaluations, and prompt injection defense. Integrates natively with CI/CD pipelines to catch LLM vulnerabilities prior to deployment.
 
-2. **[DeepEval](https://github.com/confident-ai/deepeval)** [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
+2. **[DeepEval](https://github.com/confident-ai/deepeval)** [![GitHub_Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)  
    The Open-Source LLM Evaluation Framework (Apache-2.0). Unit tests LLM applications for hallucination detection, answer relevancy, toxicity, G-Eval custom metrics, and enterprise safety guardrails.
 
-3. **[Phoenix](https://github.com/Arize-ai/phoenix)** [![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
+3. **[Phoenix](https://github.com/Arize-ai/phoenix)** [![GitHub_Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers)  
    AI observability and evaluation platform (ELv2) providing OpenTelemetry-based LLM tracing, evaluation, hallucination detection, and real-time guardrail performance monitoring.
 
-4. **[Microsoft Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
+4. **[Microsoft Presidio](https://github.com/microsoft/presidio)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
    Industry-standard context-aware, pluggable PII identification and anonymization service (MIT). Identifies sensitive entities (names, credit cards, emails, SSNs) and redacts or masks them across prompts and completions.
 
-5. **[garak](https://github.com/leondz/garak)** [![GitHub stars](https://img.shields.io/github/stars/leondz/garak?style=social&color=white)](https://github.com/leondz/garak/stargazers)  
+5. **[garak](https://github.com/leondz/garak)** [![GitHub_Stars](https://img.shields.io/github/stars/leondz/garak?style=social&color=white)](https://github.com/leondz/garak/stargazers)  
    The LLM vulnerability scanner (Apache-2.0). Acts as an automated generative AI red-teaming tool probing models for prompt injection, jailbreaks, data leaks, hallucination, and toxic generation.
 
-6. **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
+6. **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub_Stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
    Python framework (Apache-2.0) and Hub for adding input/output guards, enforcing PII redaction, detecting toxic content, and extracting structured data using Pydantic schemas. Includes Guardrails API server with OpenAI-compatible endpoints.
 
-7. **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+7. **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
    Leading open-source toolkit (Apache-2.0) by NVIDIA for programmable guardrails on conversational LLM systems. Uses the Colang modeling language to define input, dialog, retrieval, execution, and output rails.
 
-8. **[Purple Llama / Llama Guard](https://github.com/meta-llama/PurpleLlama)** [![GitHub stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers)  
+8. **[Purple Llama / Llama Guard](https://github.com/meta-llama/PurpleLlama)** [![GitHub_Stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers)  
    Meta's umbrella project (MIT/Custom) for open trust and safety tools, featuring **Llama Guard**, **Prompt Guard**, and CyberSec Eval for content moderation and adversarial prompt filtering.
 
-9. **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+9. **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub_Stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
    Production-grade security toolkit (MIT) by Protect AI for LLM interactions. Offers modular scanners for prompt sanitization, secret/token detection, toxicity filtering, and sensitive data redaction.
 
-10. **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
+10. **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub_Stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
     Multi-layered prompt injection detector (Apache-2.0) utilizing heuristic filtering, dedicated LLM detection, vector database embeddings, and canary tokens to stop prompt injection attacks.
 
-11. **[HarmBench](https://github.com/centerforaisafety/HarmBench)** [![GitHub stars](https://img.shields.io/github/stars/centerforaisafety/HarmBench?style=social&color=white)](https://github.com/centerforaisafety/HarmBench/stargazers)  
+11. **[HarmBench](https://github.com/centerforaisafety/HarmBench)** [![GitHub_Stars](https://img.shields.io/github/stars/centerforaisafety/HarmBench?style=social&color=white)](https://github.com/centerforaisafety/HarmBench/stargazers)  
     Standardized evaluation framework (MIT) by the Center for AI Safety for automated red teaming, jailbreak robustness, and safety benchmarking of open and closed-source language models.
 
-12. **[ModelScan](https://github.com/protectai/modelscan)** [![GitHub stars](https://img.shields.io/github/stars/protectai/modelscan?style=social&color=white)](https://github.com/protectai/modelscan/stargazers)  
+12. **[ModelScan](https://github.com/protectai/modelscan)** [![GitHub_Stars](https://img.shields.io/github/stars/protectai/modelscan?style=social&color=white)](https://github.com/protectai/modelscan/stargazers)  
     Open-source model scanner (Apache-2.0) protecting against Model Serialization Attacks. Analyzes model files byte-by-byte (PyTorch, TensorFlow, Keras, Sklearn, Pickle) without executing arbitrary malicious code.
 
-13. **[Vigil](https://github.com/deadbits/vigil-llm)** [![GitHub stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social&color=white)](https://github.com/deadbits/vigil-llm/stargazers)  
+13. **[Vigil](https://github.com/deadbits/vigil-llm)** [![GitHub_Stars](https://img.shields.io/github/stars/deadbits/vigil-llm?style=social&color=white)](https://github.com/deadbits/vigil-llm/stargazers)  
     Open-source security scanner and guardrail (MIT) detecting prompt injections, jailbreaks, and toxic inputs using signature detection, transformer models, and vector database similarity matching.
 
-14. **[Sponsio](https://github.com/SponsioLabs/Sponsio)** [![GitHub stars](https://img.shields.io/github/stars/SponsioLabs/Sponsio?style=social&color=white)](https://github.com/SponsioLabs/Sponsio/stargazers)  
+14. **[Sponsio](https://github.com/SponsioLabs/Sponsio)** [![GitHub_Stars](https://img.shields.io/github/stars/SponsioLabs/Sponsio?style=social&color=white)](https://github.com/SponsioLabs/Sponsio/stargazers)  
     Runtime safety layer for AI agents (Apache-2.0). Validates autonomous agent actions against deterministic rules ("agent contracts") before tool execution.
 
-15. **[Arthur Engine](https://github.com/arthur-ai/arthur-engine)** [![GitHub stars](https://img.shields.io/github/stars/arthur-ai/arthur-engine?style=social&color=white)](https://github.com/arthur-ai/arthur-engine/stargazers)  
+15. **[Arthur Engine](https://github.com/arthur-ai/arthur-engine)** [![GitHub_Stars](https://img.shields.io/github/stars/arthur-ai/arthur-engine?style=social&color=white)](https://github.com/arthur-ai/arthur-engine/stargazers)  
     Open-source engine (Apache-2.0) for LLM evaluation, task-based validation, and hallucination scoring in enterprise RAG workflows.
 
-16. **[Inner Warden](https://github.com/InnerWarden/inner-warden)** [![GitHub stars](https://img.shields.io/github/stars/InnerWarden/inner-warden?style=social&color=white)](https://github.com/InnerWarden/inner-warden/stargazers)  
+16. **[Inner Warden](https://github.com/InnerWarden/inner-warden)** [![GitHub_Stars](https://img.shields.io/github/stars/InnerWarden/inner-warden?style=social&color=white)](https://github.com/InnerWarden/inner-warden/stargazers)  
     Open-source security agent (MIT) monitoring autonomous AI agents and runtime environments against privilege escalation and risky shell commands.
 
 ---
@@ -125,7 +125,7 @@ Contributions are warmly welcome! Help keep this enterprise AI safety index accu
 
 1. 🍴 **Fork** the repository.
 2. 🌿 Create a new feature branch (`git checkout -b feature/add-guardrail`).
-3. 📝 Add or update entries in `README.md` following the established format (include name, links, pricing, free tiers, and star badges).
+3. 📝 Add or update entries in `README.md` following the established format (include name, links, pricing, free tiers, and Stars_Badges).
 4. 🚀 Submit a **Pull Request** with a brief summary of additions or updates.
 
 ---
