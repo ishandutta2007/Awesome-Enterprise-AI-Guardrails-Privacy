@@ -42,65 +42,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Einstein Trust Layer](https://www.salesforce.com/products/secure-ai/)**  
-
-  Secure AI architecture built into Salesforce Platform. Acts as intermediary between user prompts and LLMs, providing dynamic grounding with CRM data, data masking for PII, Zero Retention architecture (no data stored outside Salesforce), toxicity detection, and audit trails. Built on Hyperforce for data residency and compliance .
-
-
-
-- **[Lakera Guard](https://platform.lakera.ai/)**  
-
-  API-first runtime security layer for LLM and agent applications. Threat-intelligence-driven detection of prompt injection, jailbreaks, PII leakage, and toxic content. Model-agnostic, works with hosted and self-hosted LLMs. Free Community tier (10k requests/month), Enterprise tier with SSO, RBAC, and self-hosted deployment options .
-
-
-
-- **[Guardrails AI](https://guardrailsai.com/)**  
-
-  Python framework and Hub for adding input/output guards to LLM applications. Hub contains pre-built validators for PII, toxicity, competitor mentions, and more. Also generates structured data from LLMs using Pydantic models. Guardrails Index benchmarks 24 guardrails across 6 risk categories .
-
-
-
-- **[Protect AI](https://protectai.com/)**  
-
-  AI security platform with Guardian model scanner. Partnership with Hugging Face scans 1M+ models for serialization attacks, CVEs, and backdoors. Policy enforcement blocks non-compliant models from production. Insights DB provides threat research and safe model lists .
-
-
-
-- **[HiddenLayer](https://hiddenlayer.ai/)**  
-
-  AI security platform with Console, Model Scanner, and AI Runtime Security. Agentic Runtime Security provides real-time detection for multi-turn sessions, tool calls, and autonomous agents. Detects prompt injection, PII, code exfiltration, URLs, and off-policy language. Policy actions: Block, Detect, Redact .
-
-
-
-- **[Arthur Shield](https://www.arthur.ai/product/shield)**  
-
-  Runtime guardrail that sits between application and LLM deployment. Detects sensitive data leakage, toxicity, hallucinations, and prompt injections. Model-agnostic and platform-agnostic, supports SaaS, managed cloud, and on-prem deployment .
-
-
-
-- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)**  
-
-  Open-source toolkit (Apache-2.0) for programmable guardrails on LLM conversational systems. Uses Colang modeling language for dialogue flows. Five rail types: Input, Dialog, Retrieval, Execution, Output. Integrates with LangChain, supports multiple LLMs (OpenAI, LLaMa-2, Falcon, Vicuna) .
-
-
-
-- **[CalypsoAI](https://calypsoai.com/)**  
-
-  Enterprise AI security at the inference layer. Inference Defend blocks prompt injections, jailbreaks, and data exfiltration in real time. Customizable security policies, centralized enforcement, and preconfigured scanners auto-activated on deployment .
-
-
-
-- **[Patronus AI](https://www.patronus.ai/)**  
-
-  Hosted evaluation API with configurable evaluators for hallucination (Lynx model), toxicity, PII, prompt injection, and custom judging. Single `/v1/evaluate` endpoint runs multiple evaluators per request. Returns pass/fail verdicts with explanations. Free Developer tier available .
-
-
-
-- **[Credo AI](https://www.credo.ai/)**  
-
-  AI governance platform with GAIA (Govern AI Assistant). Automates use case intake, questionnaire assistance, risk scenario recommendations, and control matching. Targets scalability challenge where governance teams face thousands of AI use cases with limited review capacity .
+| Platform | Description | Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Salesforce Einstein Trust Layer](https://www.salesforce.com/products/secure-ai/)** | Secure AI architecture built into Salesforce Platform with dynamic CRM grounding, PII masking, Zero Data Retention, toxicity detection, and audit trails. | Included in Enterprise & Unlimited Editions; advanced Agentforce / Einstein 1 tiers start at list price of **$550/user/month** (billed annually) or custom quotes. | **30-day free trial** available for Salesforce Enterprise Edition (includes standard platform features and trial credits). |
+| **[Lakera Guard](https://platform.lakera.ai/)** | API-first runtime security layer for LLM and agent applications providing prompt injection defense, jailbreak prevention, and PII leakage guardrails. | **$0/month** for Community Tier; Enterprise tier starts at custom negotiated annual contracts (acquired by Check Point). | **Free forever Community tier** includes up to **10,000 API requests/month** with up to 8,000 tokens per prompt and SaaS dashboard access. |
+| **[Patronus AI](https://www.patronus.ai/)** | Automated evaluation, red-teaming, and guardrail API for hallucinations (Lynx model), toxicity, PII, and custom enterprise criteria. | **€0/month** (Monitor tier); **€6.99/device/month** (Light tier); **€69/month** (Pro tier up to 5 devices); custom for Business/Enterprise. | **Free forever Monitor tier** includes basic desktop app visibility and limited API scan units; Developer API offers free trial evaluation credits. |
+| **[Guardrails AI](https://guardrailsai.com/)** | Framework and Hub for input/output guards, PII filtering, and structured Pydantic data generation for LLM applications. | Core framework is **$0 (Apache 2.0 open source)**; Guardrails Pro / Managed Cloud starts via custom enterprise annual contracts or AWS Marketplace private offers. | **Free forever open-source** self-hosted engine with unrestricted local runs; Guardrails Hub public validators are free to pull and run. |
+| **[Arthur Shield](https://www.arthur.ai/product/shield)** | Real-time LLM firewall and guardrail intercepting sensitive data leakage, hallucinations, prompt injection, and toxic responses. | Arthur Monitoring entry tiers start at **$60/month**; Arthur Shield enterprise runtime guardrail starts via custom annual enterprise agreements (~$30,000–$50,000+/year). | **14-day free trial** available for Arthur core evaluation/monitoring platform upon request (no self-serve free forever tier for Shield). |
+| **[Credo AI](https://www.credo.ai/)** | Enterprise AI governance, risk management, and compliance platform with GAIA assistant automating policy enforcement and audit trails. | Annual platform subscription starting between **$30,000 to $150,000/year** based on active AI use cases and compliance modules. | **Free access to AI Governance Insights Hub and templates**; enterprise platform evaluation via customized guided proof-of-concept (PoC) demo upon request. |
+| **[Protect AI](https://protectai.com/)** | AI security posture management, Guardian model scanner, and LLM supply-chain security against serialization attacks. | Annual commercial enterprise contracts starting at mid-five figures (~$35,000–$50,000+/year) via direct sales or AWS Marketplace (acquired by Palo Alto Networks). | **Free forever open-source ModelScan** tool for scanning local models; enterprise platform PoC/trial available upon sales request. |
+| **[HiddenLayer](https://hiddenlayer.ai/)** | AI security platform providing ML model scanning, attack simulation, and Agentic Runtime Security for multi-turn sessions and tool calls. | Annual commercial enterprise contracts starting at mid-five figures (~$50,000+/year) scaled by model count and runtime deployment mode. | **Guided Proof-of-Concept (PoC) trial** available upon scheduled enterprise demo (no self-serve free forever tier). |
+| **[CalypsoAI](https://calypsoai.com/)** | Real-time inference-layer security (Inference Defend) blocking prompt injections, jailbreaks, and data exfiltration. | Annual enterprise subscription starting at custom rates (acquired by F5 Networks for $180M). | **Guided enterprise Proof-of-Concept (PoC)** available upon sales request and demo (no public self-serve free tier). |
 
 
 
