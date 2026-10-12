@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -37,6 +39,12 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [How to Contribute](#how-to-contribute)
 
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global AI Guardrails and LLM Security market is estimated at approximately **USD 2B to 3B**, rapidly expanding at a CAGR of 25%+ toward an expected **USD 18B–27B+** over the next decade. The sector is currently **moderately to highly fragmented** rather than winner-take-all, characterized by rapid open-source innovation, specialized security startups, and aggressive M&A consolidation from legacy cybersecurity giants (e.g., Palo Alto acquiring Protect AI, Check Point acquiring Lakera, and F5 acquiring CalypsoAI).
 
 
 
